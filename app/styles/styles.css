@@ -17,7 +17,7 @@ html, body {
     justify-content: space-between;
     -webkit-align-items: center;
     align-items: center;
-    height: 25%; }
+    height: 33.33333%; }
     #calendar .row .box {
       display: -webkit-flex;
       display: flex;
