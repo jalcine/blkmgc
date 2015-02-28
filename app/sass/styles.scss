@@ -15,16 +15,18 @@ html, body {
         display: -ms-flexbox;
         display: -webkit-flex;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         width: 100%;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
+        height: 25%;
 
         .box {
             display: flex;
-            border: 1px solid #333;
-            flex-direction: row;
+            outline: 1px solid #333;
+            flex-direction: column;
             flex-grow: 1;
+            height: 100%;
         }
     }
 }
