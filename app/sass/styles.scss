@@ -1,0 +1,30 @@
+@import url("http://meyerweb.com/eric/tools/css/reset/reset.css");
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#calendar {
+    height: 100%;
+    .row {
+        background-color: #000;
+        display: flex;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+
+        .box {
+            display: flex;
+            border: 1px solid #333;
+            flex-direction: row;
+            flex-grow: 1;
+        }
+    }
+}

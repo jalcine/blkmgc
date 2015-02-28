@@ -1,0 +1,27 @@
+@import url("http://meyerweb.com/eric/tools/css/reset/reset.css");
+html, body {
+  height: 100%;
+  width: 100%; }
+
+#calendar {
+  height: 100%; }
+  #calendar .row {
+    background-color: #000;
+    display: flex;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center; }
+    #calendar .row .box {
+      display: -webkit-flex;
+      display: flex;
+      border: 1px solid #333;
+      -webkit-flex-direction: row;
+      flex-direction: row;
+      -webkit-flex-grow: 1;
+      flex-grow: 1; }
