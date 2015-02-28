@@ -10,18 +10,20 @@ html, body {
     display: flex;
     display: -webkit-flex;
     display: flex;
-    -webkit-flex-direction: column;
-    flex-direction: column;
+    -webkit-flex-direction: row;
+    flex-direction: row;
     width: 100%;
-    -webkit-justify-content: center;
-    justify-content: center;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
     -webkit-align-items: center;
-    align-items: center; }
+    align-items: center;
+    height: 25%; }
     #calendar .row .box {
       display: -webkit-flex;
       display: flex;
-      border: 1px solid #333;
-      -webkit-flex-direction: row;
-      flex-direction: row;
+      outline: 1px solid #333;
+      -webkit-flex-direction: column;
+      flex-direction: column;
       -webkit-flex-grow: 1;
-      flex-grow: 1; }
+      flex-grow: 1;
+      height: 100%; }
