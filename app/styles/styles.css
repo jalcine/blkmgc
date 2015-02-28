@@ -26,4 +26,6 @@ html, body {
       flex-direction: column;
       -webkit-flex-grow: 1;
       flex-grow: 1;
-      height: 100%; }
+      height: 100%;
+      background-size: cover;
+      background-position: center center; }
